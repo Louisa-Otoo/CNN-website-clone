@@ -1,0 +1,243 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.header {
+    background: black;
+    color: white;
+    height: 2rem;
+    text-align: left; 
+    line-height: 2rem;
+    padding: 0 2rem;
+}
+
+.header .horizontal-list .logo {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 1rem;
+}
+
+.header .horizontal-list {
+    list-style-type: none;
+}
+
+.header .horizontal-list li,
+.container .pageContent .news li {
+    display: inline; /* Display list items inline */
+    margin-right: 1rem; 
+    font-size: 1rem;
+}
+
+.container {
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+}
+
+.container .pageContent .news {
+    padding-top: 1rem;
+}
+
+.container .smallContainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 1rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+ 
+.smallContainer .left-side {
+    width: 45rem;
+    padding: 1rem;
+    display: inline-block;
+}
+
+.smallContainer .left-side .mainImg {
+    height: 23rem;
+    width: 43rem;
+    padding-bottom: 0.5rem;
+}
+
+.smallContainer .left-side .currentNews {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.smallContainer .left-side .bulleted-list {
+    text-align: left; /* Adjust text alignment as needed */
+    margin-top: 1rem; 
+    line-height: 1.5;
+} 
+
+.smallContainer .left-side .bulleted-list ul { 
+    list-style-position: inside; /* Position the bullets inside the list items */
+ }
+
+.smallContainer .left-side .bulleted-list li {
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.smallContainer .middle {
+    width: 22rem; 
+}
+
+.smallContainer .middle img {
+    height: 14rem;
+    width: 22rem;
+    padding: 1rem;
+}
+
+.smallContainer .middle .tomStory,
+.smallContainer .middle .middle h4 {
+    padding: 0 1rem; 
+}
+
+.news-list ul {
+    list-style-position: inside;
+}
+
+.news-list  li {
+    padding: 0 1rem;
+    font-size: 1rem;
+    padding-top: 1rem;
+}
+
+.smallContainer .middle .analysis,
+.smallContainer .middle .updates {
+    font-weight: bold;
+}
+
+.smallContainer .right-side {
+    width: 20rem;
+}
+
+.smallContainer .right-side img {
+    height: 14rem;
+    width: 20rem;
+    padding: 1rem; 
+}
+
+.smallContainer .right-side .catchUp {
+    padding: 0 1rem;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    padding-bottom: 0.8rem;
+}
+
+.smallContainer .right-side .globalNews {
+    padding: 0.5rem;
+    border-bottom: 1px solid rgb(193, 191, 191);
+    padding-bottom: 0.8rem;
+}
+
+
+
+/*second section begins*/
+
+.secondContainer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 1rem;
+    padding: 1rem 0;
+    margin-top: 1rem;
+}
+
+.secondContainer .sidebar {
+    width: 22rem;
+    padding: 1rem;
+}
+
+.secondContainer .sidebar img {
+    height: 11rem;
+    width: 19rem;
+}
+
+.secondContainer .sidebar h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid grey;
+    padding-bottom: 1rem; 
+}
+
+.secondContainer .sidebar p {
+    border-bottom: 1px solid grey; 
+    padding-bottom: 1rem; 
+    margin-bottom: 1rem;
+}
+
+.secondContainer .sidebar .opinion {
+    font-weight: bold;
+}
+
+.secondContainer .center {
+    width: 45rem;
+    padding: 1rem 0;
+}
+
+.secondContainer .center .featuredImage  {
+    height: 25rem;
+    width: 42rem;
+}
+
+.secondContainer .center .centerTopic {
+    border-bottom: 1px solid grey;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.secondContainer .center .subContent {
+    display: flex;
+}
+
+.secondContainer .center .subContent .subImg {
+    height: 6rem;
+    width: 9rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.secondContainer .center .subContent .otherNews {
+    margin-left: 1rem;
+}
+
+.secondContainer .right {
+    width: 20rem;
+    padding: 0 1rem;
+}
+
+.secondContainer .right img {
+    height: 10rem;
+    width: 17rem;
+}
+
+.secondContainer .right .ad {
+    color: rgb(182, 180, 180);
+}
+
+.secondContainer .right .sideContent {
+    display: flex;
+    margin-top: 1rem;
+    border-bottom: 1px solid gray;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.secondContainer .right .sideContent .sideImg {
+    height: 4rem;
+    width: 7rem;
+}
+
+.secondContainer .right .sideContent .sideStory {
+    margin-left: 1rem;
+}
