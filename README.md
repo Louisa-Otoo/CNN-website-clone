@@ -29,8 +29,3 @@ A responsive frontend clone of the [CNN] (https://www.cnn.com/) news website, bu
 - This is a **frontend-only** project. It does not include any backend functionality or dynamic content.
 - This project was created **for educational purposes** and is not affiliated with or endorsed by CNN.
 - All content and images are placeholders or used for educational cloning purposes only.
-
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
