@@ -1,6 +1,6 @@
 # CNN News Frontend Clone
 
-A responsive frontend clone of the [CNN] (https://www.cnn.com/) news website, built using **HTML*** and **CSS**. This project replicates the layout, structure and typography of the original site, focusing on visual and structural fidelity.
+A responsive frontend clone of the [CNN] (https://www.cnn.com/) news website, built using **HTML** and **CSS**. This project replicates the layout, structure and typography of the original site, focusing on visual and structural fidelity.
 
 # 🔍 Features
 
