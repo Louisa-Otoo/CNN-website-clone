@@ -20,8 +20,8 @@ A responsive frontend clone of the [CNN] (https://www.cnn.com/) news website, bu
 ## 🛠️ Technologies Used
 
 - HTML5
-- CSS3 (Flexbox & Grid)
-- Google Fonts (if used)
+- CSS3 (Grid)
+- Google Fonts
 
 
 ## 📌 Notes
